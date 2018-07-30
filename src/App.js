@@ -67,7 +67,7 @@ class App extends Component {
             Click the Tomato to start and stop the timer!
           </div>
         }
-        <Tomato  angle={this.state.angle} onTomatoClick={this.tomatoClickHandler}></Tomato>
+        <Tomato angle={this.state.angle} onTomatoClick={this.tomatoClickHandler}></Tomato>
         <div>
           <h3>{this.state.timeCompleted > 59 ? <span>Seconds</span> : <span>Time</span> } completed: {this.getTime()}</h3>
         </div>
